@@ -1,0 +1,34 @@
+.get__start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+@media (max-width: 767px) {
+  .get__start {
+    display: block;
+  }
+}
+
+.CTA {
+  margin: 10rem 0;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.get__start-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 7rem;
+  background-color: #000;
+  border: none;
+  outline: none;
+  color: #fff !important;
+}
+
+@media (max-width: 767px) {
+  .get__start-button {
+    margin-top: 1.5rem;
+  }
+}

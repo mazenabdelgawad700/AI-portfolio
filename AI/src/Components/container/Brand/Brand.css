@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  padding: 0px!important ;
+  margin: 0px!important ;
+}
+
+.sponsors {
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
+}
+
+.sponsors li img {
+  height: 2rem;
+}

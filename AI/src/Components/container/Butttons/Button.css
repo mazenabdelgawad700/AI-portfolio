@@ -1,0 +1,9 @@
+.btn {
+  padding: .8rem 2.5rem !important;
+  border: none !important;
+  transition: .3s !important;
+}
+.btn.active,
+.btn:hover:not(.btn.active){
+  background-color: #FF4820 !important;
+}

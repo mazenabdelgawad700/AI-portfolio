@@ -1,0 +1,33 @@
+.features {
+  margin: 5rem  0;
+}
+
+.features .row {
+  justify-content: space-between;
+}
+
+
+.features .row .box:nth-of-type(1) h3 {
+  font-size: 2rem;
+}
+
+
+.features .row .box:nth-of-type(1) p {
+  font-size: 1.2rem;
+  color: var(--color-subText);
+}
+.features .row .box .headerWithDesign {
+  font-size: 1.2rem;
+}
+
+.features .row .box .headerWithDesign:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
+.features .row .box:nth-of-type(3) p {
+  color: #81AFDD;
+}
+
+.features .row .box:nth-of-type(3) p:not(:first-of-type) {
+  margin-top: 1.5rem;
+}

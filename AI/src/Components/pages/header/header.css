@@ -1,0 +1,79 @@
+input[type="email"] {
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: .2rem;
+  font-size: 1.2rem;
+  background-color: #052D56;
+  color: #fff;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+::placeholder {
+  color: #3D6184 !important;
+}
+
+.img {
+  flex: 1;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.homeButton {
+  margin-left: -1rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+
+.main-header {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+@media (max-width: 991px) {
+  .main-header {
+    font-size: 2rem !important;
+  }
+}
+
+.describtion {
+  margin: 1.7rem 0;
+  color: #81AFDD;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+@media (min-width: 768px) {
+.testimonials {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+.testimonials {
+  text-align: center;
+  }
+.testimonials p{
+    margin-top: .5rem;
+  }
+}
+
+.group {
+  height: 2rem;
+}
+
